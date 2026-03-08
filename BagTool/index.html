@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rectangle DXF Generator</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+
+        input {
+            margin: 10px 0;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Rectangle DXF Generator</h2>
+
+<label>Width (inches)</label>
+<br>
+<input id="width" type="number">
+
+<br>
+
+<label>Height (inches)</label>
+<br>
+<input id="height" type="number">
+
+<br><br>
+
+<button onclick="generateDXF()">Download DXF</button>
+
+<script src="dxf.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
